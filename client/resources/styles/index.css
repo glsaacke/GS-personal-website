@@ -1,0 +1,135 @@
+body {
+    background-color:#333A56;
+    margin: 0;
+    background-image: url('../img/3353115.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'primary';
+    src: url("../fonts/Ubuntu-B.ttf");
+}
+
+.topnav {
+    background-color: #333A56;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    overflow: hidden;
+    font-family: primary;
+}
+
+.link {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-size: x-large;
+}
+
+.link:hover {
+    background-color: #42e0ff;
+}
+
+.active {
+    float: right;
+    background-color: #42e0ff;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-size: x-large;
+    
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nameHead {
+    color: #e8e8e8;
+    font-family: primary;
+    font-size: 120px;
+    margin-top: 200px;
+    text-align: center;
+    background-color: #333A56;
+    padding: 20px;
+}
+
+#nameBody {
+    color: #333A56;
+    font-family: primary;
+    text-align: center;
+    margin-bottom: 250px;
+    display: block;
+}
+
+#aboutSection {
+    background-color: #52658F;
+}
+
+#aboutHead {
+    color: #F7F5E6;
+    font-family: primary;
+    font-size: 60px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+#topSection {
+    background-color: #333A56;
+    border-radius: 8px;
+}
+
+#sectionHead{
+    color: #F7F5E6;
+    background-color: #42e0ff;
+    font-family: primary;
+    margin: 100px;
+    border-radius: 8px;
+}
+
+#pfp {
+    margin-left: 100px;
+    max-width: 300px;
+    max-height: 300px;
+    margin-bottom: 60px;
+    border-radius: 8px;
+}
+
+#aboutSub {
+    display: flex;
+}
+
+#aboutP {
+    margin-left: 100px;
+    font-family: primary;
+    color: #F7F5E6;
+    font-size: x-large;
+}
+
+#contactSection {
+    background-color: #333A56;
+    margin: 0;
+}
+
+#contactHead {
+    color: #F7F5E6;
+    background-color: #333A56;
+    font-family: primary;
+    font-size: x-large;
+    padding: 60px;
+}
+
