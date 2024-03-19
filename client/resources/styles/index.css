@@ -1,7 +1,7 @@
 body {
     background-color:#333A56;
     margin: 0;
-    background-image: url('../img/3353115.jpg');
+    /* background-image: url('../img/v748-toon-15.jpg'); */
     background-size: cover;
     background-attachment: fixed;
 }
@@ -49,6 +49,7 @@ body {
     width: 50%;
     margin: 0 auto;
     text-align: center;
+    justify-content: center;
 }
 
 #nameHead {
@@ -131,5 +132,18 @@ body {
     font-family: primary;
     font-size: x-large;
     padding: 60px;
+}
+
+.navButton {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 16px;
 }
 
