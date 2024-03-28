@@ -5,38 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gavin Saacke</title>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link href="./resources/img/G-Icon.svg" rel="icon" type="svg" />
     <link rel="stylesheet" href="./resources/styles/index.css">
 </head>
 <body>
-    <!-- <div id="section1">
-        <div class="topnav">
-            <a class= "link" href="./writing.html">Writing</a>
-            <a class="link" href="./projects.html">Projects</a>
-            <a class="link" href="#aboutSection">About</a>
-            <a class="active" href="#section1">Home</a>
-        </div> -->
-
+    <div class="topnav">
+        <a class= "link" href="./journals.html">Journals</a>
+        <a class="link" href="./projects.html">Projects</a>
+        <a class="link" href="./about.html">About</a>
+        <a class="active" href="./index.html">Home</a>
     </div>
-    <div class="container">
-        <h1 id="nameHead">GAVIN SAACKE</h1>
-
-    </div>
-    <div class="container" id="buttons">
-        <button class="navButton">About</button>
-        <button class="navButton">Projects</button>
-        <button class="navButton">Writing</button>
-    </div>
-    <!-- <div id= "aboutSection">
-        <h1 id="aboutHead">About Me</h1>
-
-        <div id="aboutSub">
-            <img id="pfp" src="./resources/img/2edit3.PNG">
-            <p id="aboutP">Here is a little bit about me</p>
+    <main>
+        <header>
+            <h1 id="nameHead">GAVIN SAACKE</h1>
+            <h2 id="subHead">SOFTWARE DEVELOPER</h2>
+        </header>
+        <!-- <h1 id="nameHeadShadow">GAVIN SAACKE</h1> -->
+        <div class="container-button" id="buttons">
+            <a href="about.html">
+                <button class="navButton">About</button>
+            </a>
+            <a href="projects.html">
+                <button class="navButton">Projects</button>
+            </a>
+            <a href="journals.html">
+                <button class="navButton">Journals</button>
+            </a>
         </div>
-    </div>
-    <div id="contactSection">
-        <h2 id="contactHead">Contact</h2>
-    </div> -->
+    </main>
+
+    <footer>
+        <p>Website designed by Gavin Saacke</p>
+        <div class="socialIcons">
+            <a href="https://github.com/glsaacke">
+                <img id="github" src="./resources/img/icons8-github.svg">
+            </a>
+            <a href="https://www.linkedin.com/in/gavinsaacke/">
+                <img id="linkedin" src="./resources/img/icon-linkedin.svg">
+            </a>
+        </div>
+    </footer>
     <script src="./resources/scripts/index.js"></script>
 </body>
 </html>
